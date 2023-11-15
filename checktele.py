@@ -57,14 +57,14 @@ def gen_user(choice):
         else:
             pass
     if choice == "2":
-        c = d = random.choices(a)
-        d = random.choices(a)
+        c = d = random.choices(e)
+        d = random.choices(e)
         f = [c[0], d[0], c[0], c[0], c[0], d[0]]
         random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
-            c = d = random.choices(a)
-            d = random.choices(a)
+            c = d = random.choices(e)
+            d = random.choices(e)
             f = [c[0], d[0], c[0], c[0], c[0], d[0]]
             random.shuffle(f)
             username = ''.join(f)
